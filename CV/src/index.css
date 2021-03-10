@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Shippori+Mincho+B1:wght@600&display=swap');
+
+body {
+  background-color: rgb(199, 199, 199);
+  padding: 50px;
+  margin: 0;
+  font-family: helvetica, sans-serif;
+  color: rgb(51, 18, 104);
+}
+
+h1, h2, ul, li { 
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+h3 { 
+  font-family: 'Abhaya Libre', serif;
+}
+
+p { 
+  font-family: 'Abhaya Libre', serif;
+}
+
+ul.header li { 
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header { 
+  background-color: rgb(247, 186, 239);
+  margin-bottom: 10px;
+}
+
+ul.header li a {
+  color:rgb(65, 65, 65);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px; 
+  display: inline-block;
+}
+
+.header text { 
+  color: grey
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+}
+
+.content h2 { 
+  padding: 0; 
+  padding: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.active { 
+  background-color: rgb(25, 158, 118);
+  color: white;
+}
