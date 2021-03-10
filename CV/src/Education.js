@@ -13,6 +13,7 @@ class Education extends Component {
         <p> Politics and International Relations BA</p>
         <h3> Portsmouth University </h3>
         <p> Music and Sound Technology </p>
+        <p> cuck </p>
       </div>
     )
   }

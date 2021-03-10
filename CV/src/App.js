@@ -14,7 +14,7 @@ class App extends Component {
         <div>
           <h1>Will Dixon CV</h1>
           <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/workexperience">Work Experience</NavLink></li>
             <li><NavLink to="/makers">Makers</NavLink></li>
             <li><NavLink to="/education">Education</NavLink></li>
