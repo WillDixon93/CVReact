@@ -14,9 +14,9 @@ class Menu extends Component {
           onMouseDown={this.props.handleMouseDown}
           className={visibility}>
         <h2><a href="#">Home</a></h2>
+        <h2><a href="#">Portfolio</a></h2>
         <h2><a href="#">CV</a></h2>
         <h2><a href="#">About Me</a></h2>
-        <h2><a href="#">Portfolio</a></h2>
         </div>
     );
   }

@@ -27,7 +27,7 @@ ul.header li {
 }
 
 ul.header { 
-  background-color: rgb(247, 186, 239);
+  background-color: pink;
   margin-bottom: 10px;
 }
 
@@ -72,6 +72,6 @@ container li {
 }
 
 .active { 
-  background-color: rgb(25, 158, 118);
+  background-color: teal;
   color: white;
 }

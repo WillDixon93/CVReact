@@ -37,8 +37,6 @@ constructor(props, context) {
           menuVisibility={this.state.visible}/>
         <div> 
           <ul> 
-            <li>About Me</li>
-            <li>CV</li>
           </ul>
         </div>
       </div> 

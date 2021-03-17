@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Shippori+Mincho+B1:wght@600&display=swap');
+
 #flyoutMenu {
   width: 100vw;
   height: 100vh;
-  background-color: grey;
+  background-color: rgb(85, 84, 84);
   position: fixed;
   top: 0;
   left: 0;
@@ -16,5 +18,20 @@
 }
 
 #flyoutMenu.show {
-  transform: translate3d(0vw, 0, 0);
+  transform: translate3d(50vw, 0, 0);
+}
+
+h2 {
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+#flyoutMenu h2 a {
+  color: pink; 
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#flyoutMenu h2 a:hover {
+  color:teal;
+  text-decoration: underline;
 }
