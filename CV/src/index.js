@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './CSS/index.css';
 import App from './App.js';
-import MenuContainer from './MenuContainer'; 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <MenuContainer />
   </React.StrictMode>,
   document.querySelector("#container")
 );
