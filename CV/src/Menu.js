@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './CSS/Menu.css'
 
 class Menu extends Component {
@@ -14,11 +14,12 @@ class Menu extends Component {
       <div id="flyoutMenu"
           onMouseDown={this.props.handleMouseDown}
           className={visibility}>
-        <li><NavLink exact to="/">Home</NavLink></li>
-        <li><NavLink exact to="/portfolio">Portfolio</NavLink></li>
-        <li><NavLink exact to="/cv">CV</NavLink></li>
-        <li><NavLink exact to="/aboutme">About Me</NavLink></li>
+        <li><Link to="/">Shmee</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/cv">CV</Link></li>
+        <li><Link to="/aboutme">About Me</Link></li>
         </div>
+
     );
   }
 }

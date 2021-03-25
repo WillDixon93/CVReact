@@ -1,7 +1,6 @@
 import { Route, HashRouter } from "react-router-dom"
 import React, { Component } from 'react'; 
 import CVhome from './CVComponents/CVhome.js';
-import MenuContainer from './MenuContainer.js';
 import Education from './CVComponents/Education.js';
 import Hobbies from './CVComponents/Hobbies.js';
 import Makers from './CVComponents/Makers.js';
@@ -18,13 +17,12 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/aboutme" component={aboutMe} />
-        <Route path="/cv" component={CV}/>
-        <Route path="/cv/home" component={CVhome} />
-        <Route path="/cv/workexperience" component={WorkExperience}/>
-        <Route path="/cv/education" component={Education}/>
-        <Route path="/cv/makers" component={Makers}/>
-        <Route path="/cv/hobbies" component={Hobbies}/>
-        <MenuContainer />
+        <Route exact path="/cv/home" component={CVhome} />
+        <Route exact path="/cv/workexperience" component={WorkExperience}/>
+        <Route exact path="/cv/education" component={Education}/>
+        <Route exact path="/cv/makers" component={Makers}/>
+        <Route exact path="/cv/hobbies" component={Hobbies}/>
+        <Route exact path="/cv" component={CV}/>
       </HashRouter>
     );
   }
